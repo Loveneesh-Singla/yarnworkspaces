@@ -1,12 +1,12 @@
 import WelcomePage from '@packages/workspaceb';
 import { useState } from "react";
 import './index.css'
-
+import React from "react";
 
 const LoginPage = () => {
     const [isLogin,setIsLogin] = useState(false);
-    const [username,setUsername] = useState();
-    const [password,setPassword] = useState()
+    const [username,setUsername] = useState("");
+    const [password,setPassword] = useState("")
 
     const handleLogin = () => {
         if(!username || !password){
