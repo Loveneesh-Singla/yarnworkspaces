@@ -1,5 +1,3 @@
-// @ts-check
-
 import LoginPage from "@packages/workspacea";
 import WelcomePage from "@packages/workspaceb";
 import React from "react";
